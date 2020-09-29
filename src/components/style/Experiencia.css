@@ -1,0 +1,15 @@
+.medidaCars {max-width: 540px;}
+.Experiencia{margin-top: 100px;}
+.card-expe:hover {
+    background:#fcf0cb ;
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.card-expe{
+    transition: 1s;
+}
+.Experiencia{
+    background: rgba(161, 160, 160, 0.274);
+    padding-bottom: 50px;
+}

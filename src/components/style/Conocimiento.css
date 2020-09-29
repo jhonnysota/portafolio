@@ -1,0 +1,44 @@
+.react{width: 18rem; 
+    transition: 1s;
+}
+.react:hover{
+    box-shadow: 5px 5px 10px black;
+    width: 19rem;
+}
+.react-conocimiento{ width: 50px; height: 30px; margin: 4px 3px 4px 0;}
+.html-conocimiento{ width: 30px; height: 35px;margin-top: 2px;}
+
+.css-conocimiento{ width:30px; height: 40px; margin: 4px 3px 4px 0;}
+.javascrit-conocimiento{ width: 20px; height: 30px; margin-left: 10px;margin-bottom: 5px;}
+.java-conocimiento{ width: 25px; height: 40px; margin-left: 15px;}
+.cshart-conocimiento{ width: 30px; height: 35px; margin: 4px 3px 4px 0;}
+
+.nodeJS-conocimiento{ width: 50px; height: 30px; margin-left: 15px;}
+.git-conocimiento{ width: 50px; height: 30px; margin-left: 15px;}
+.github-conocimiento{ width: 30px; height: 40px; margin: 4px 3px 4px 0;}
+.comando-conocimiento{ width: 20px; height: 30px; margin: 4px 3px 4px 0;}
+.nodejs-conocimiento{ width: 20px; height: 50px; margin-left: 15px;}
+.azure-conocimiento{ width: 30px; height: 30px;margin-left: 15px;}
+
+.conocimiento{
+    margin-top: 50px;
+}
+
+/* progreso */
+.progresoreact{width: 35%; background: rgb(5, 168, 168);}
+.progresohtml{width: 70%; background: rgb(219, 99, 0);}
+.progresocss{width: 60%;}
+.progresojavascript{width: 45%;}
+
+/* backend */
+.progresojava{width: 35%; background: rgb(219, 99, 0);}
+.progresocshart{width: 70%; background: rgb(102, 4, 89);}
+.progresonodejs{width: 60%; background: darkgreen;}
+
+/* comando */
+.progresogit{width: 70%; background: rgb(219, 99, 0);}
+.progresocomando{width: 60%; background: rgb(10, 10, 10);}
+
+@media screen and (max-width: 800px) {
+    .react{display:block;float: none;}
+}

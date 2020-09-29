@@ -1,0 +1,10 @@
+.card-proyect:hover{
+    background: hsla(192, 97%, 51%, 0.815);
+    color: white;
+    box-shadow: 4px 4px 4px black;
+    
+}
+.card-proyect{
+    transition: 0.5s;
+}
+.Proyect{margin-top: 100px;display: block;}
