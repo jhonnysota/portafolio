@@ -3,6 +3,10 @@ import logo from '../image/logo.svg'
 import  './style/Nav.css';
 import conocimiento from '../components/Conocimiento.jsx'
 import { Link } from 'react-router-dom';
+
+function nav(){
+  
+}
 const Nav=()=>{
         return(
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">

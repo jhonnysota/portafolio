@@ -40,5 +40,5 @@
 .progresocomando{width: 60%; background: rgb(10, 10, 10);}
 
 @media screen and (max-width: 800px) {
-    .react{display:block;float: none;}
+    .react{display:flex;float: none;}
 }

@@ -10,8 +10,8 @@ import './style/Principal.css';
 const Index=()=>{
     return(
         <React.Fragment>
-            <div className="container1">
             <Nav/>
+            <div className="container1">
             <Slider/>
             <Experiencia/>
             <Conocimiento/>
