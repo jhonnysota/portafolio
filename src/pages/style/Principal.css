@@ -1,3 +1,9 @@
-
-/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
-
+body{
+    background-color: rgba(31, 31, 31, 0.535);
+    }
+    h2{
+      color:white
+    }
+    a{
+        color: white;
+    }

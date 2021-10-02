@@ -1,33 +1,24 @@
-.Slider{margin-top: 0px;}
-.presentacion{
-    margin-top: 30%;
-    font: oblique bold 120% cursive;
-    margin-left: 60px;
+.sl{
+    background: black;
+    height:500px
 }
-.principal{
-    width: 120%;
-    margin-left: 100px;
-    margin-top: 50px;
+.sl-photo-portada{
+background-image:url(../../image/portada.jpg);
+width:70%;
+height:30vw;
+margin-left: 13vw;
+border-radius: 0px 0px 10px 10px;
+/* background-repeat: no-repeat; */
+
 }
-.row{ width: 100%; }
+.avatar{
+background-color: white;
+display: block;
+border-radius:50%
 
+}
+.avatar>img{
+width:150px;
 
-@media screen and (max-width: 800px) {
-    .principal {
-      width: 100%; 
-      margin-top: -10px;
-      z-index: 3;
-      margin-left: 20px;
-
-    }
-    .presentacion{
-        text-align: center;
-        z-index: 1;
-        margin-left: 20px;
-        margin-top: 0px;
-    }
-  }
-
-  @media screen and (max-width: 1024px) {
-      .principal{ margin-top: 50px;}
-  }
+border-radius:50%;
+}
